@@ -2676,6 +2676,19 @@ section.lazy-placeholder:after {
 .cid-rOZvLnrSaa H2 {
   color: #cc2952;
 }
+.cid-rP0eqQO3DH {
+  background: #131313;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.cid-rP0eqQO3DH .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-rP0eqQO3DH .video-block {
+    width: 100% !important;
+  }
+}
 .cid-rOZxVs3Bkx {
   padding-top: 30px;
   padding-bottom: 30px;
