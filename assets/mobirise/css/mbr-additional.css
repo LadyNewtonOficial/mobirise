@@ -4339,11 +4339,12 @@ section.lazy-placeholder:after {
   }
 }
 .cid-rPfVfTmcCv {
-  background: #ffffff;
+  background: #131313;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .cid-rPfVfTmcCv .image-block {
   margin: auto;
-  width: 100% !important;
 }
 .cid-rPfVfTmcCv .mbr-figure {
   margin: 0 auto;
@@ -4362,11 +4363,12 @@ section.lazy-placeholder:after {
   }
 }
 .cid-rPfVgJLLMF {
-  background: #ffffff;
+  background: #000000;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .cid-rPfVgJLLMF .image-block {
   margin: auto;
-  width: 100% !important;
 }
 .cid-rPfVgJLLMF .mbr-figure {
   margin: 0 auto;
