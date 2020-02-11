@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "LADY NEWTON",
-    "currentPage": "kitdofa.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -77,11 +77,13 @@
     "favicon": "@PROJECT_PATH@/assets/images/estampa1-128x176.png",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
+    "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "google-analytics": "",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
   },
   "pages": {
     "index.html": {
@@ -89,7 +91,7 @@
         "main": true,
         "title": "Página Inicial",
         "meta_descr": "Rock'n'Rol Perfeitamente Calculado. Nesse site da Lady Newton você vai encontrar memes, videos engraçados e muito rock de garagem!",
-        "header_custom": "",
+        "header_custom": "<!-- MailerLite Universal -->\n<script>\n(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){\nvar c={ a:arguments,q:[]};var r=this.push(c);return \"number\"!=typeof r?r:f.bind(c.q);}\nf.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);\nvar _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));\n_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');\n\nvar ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');\n</script>\n<!-- End MailerLite Universal -->",
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/dsc01157-1-2000x1124.jpeg"
@@ -646,7 +648,8 @@
         "meta_descr": "Flappy Newton, HQs da Banda, Videos, Novidades e tudo que a Lady não consegue mostrar no Instagram!",
         "title": "Espaço do Fã",
         "order": 4,
-        "meta_image": "@PROJECT_PATH@/assets/images/whatsapp%20image%202020-01-28%20at%204.34.48%20pm-1080x1080.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/whatsapp%20image%202020-01-28%20at%204.34.48%20pm-1080x1080.jpg",
+        "header_custom": "<!-- MailerLite Universal -->\n<script>\n(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){\nvar c={ a:arguments,q:[]};var r=this.push(c);return \"number\"!=typeof r?r:f.bind(c.q);}\nf.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);\nvar _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));\n_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');\n\nvar ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');\n</script>\n<!-- End MailerLite Universal -->"
       },
       "components": [
         {
@@ -1639,7 +1642,8 @@
       "settings": {
         "meta_descr": "Não somos a Lei de Newton que você aprendeu no colégio, aqui tem muito rock e tudo sobre a banda mais quente de Recife - Pernambuco.",
         "title": "Conheca a Lady Newton",
-        "order": 5
+        "order": 5,
+        "header_custom": "<!-- MailerLite Universal -->\n<script>\n(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){\nvar c={ a:arguments,q:[]};var r=this.push(c);return \"number\"!=typeof r?r:f.bind(c.q);}\nf.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);\nvar _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));\n_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');\n\nvar ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');\n</script>\n<!-- End MailerLite Universal -->"
       },
       "components": [
         {
@@ -2476,7 +2480,8 @@
       "settings": {
         "meta_descr": "Eletronic Press Kit - Material para produtores, mídia e pessoas que querem conhecer o lado sério da Lady Newton. ",
         "title": "EPK",
-        "order": 6
+        "order": 6,
+        "header_custom": "<!-- MailerLite Universal -->\n<script>\n(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){\nvar c={ a:arguments,q:[]};var r=this.push(c);return \"number\"!=typeof r?r:f.bind(c.q);}\nf.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);\nvar _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));\n_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');\n\nvar ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');\n</script>\n<!-- End MailerLite Universal -->"
       },
       "components": [
         {
@@ -3363,7 +3368,8 @@
         "meta_descr": "Toda a história da lady newton contada em quadrinhos, desde a fundação da banda até os primeiros shows. ",
         "title": "HQs da Lady",
         "order": 3,
-        "meta_image": "@PROJECT_PATH@/assets/images/whatsapp%20image%202020-01-28%20at%204.36.30%20pm-1080x1080.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/whatsapp%20image%202020-01-28%20at%204.36.30%20pm-1080x1080.jpg",
+        "header_custom": "<!-- MailerLite Universal -->\n<script>\n(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){\nvar c={ a:arguments,q:[]};var r=this.push(c);return \"number\"!=typeof r?r:f.bind(c.q);}\nf.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);\nvar _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));\n_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');\n\nvar ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');\n</script>\n<!-- End MailerLite Universal -->"
       },
       "components": [
         {
@@ -4028,7 +4034,8 @@
         "meta_descr": "Videos e Músicas da Lady Newton. Covers e Autorais, recomendamos escutar com fones de ouvido no máximo!",
         "title": "Videos da Lady",
         "order": 2,
-        "meta_image": "@PROJECT_PATH@/assets/images/whatsapp%20image%202020-01-28%20at%204.34.48%20pm-1080x1080.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/whatsapp%20image%202020-01-28%20at%204.34.48%20pm-1080x1080.jpg",
+        "header_custom": "<!-- MailerLite Universal -->\n<script>\n(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){\nvar c={ a:arguments,q:[]};var r=this.push(c);return \"number\"!=typeof r?r:f.bind(c.q);}\nf.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);\nvar _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));\n_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');\n\nvar ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');\n</script>\n<!-- End MailerLite Universal -->"
       },
       "components": [
         {
@@ -4811,7 +4818,8 @@
       "settings": {
         "meta_descr": "link secreto apenas para os fãs que entraram na lista da lady newton ;)",
         "title": "Kitdofa",
-        "order": 1
+        "order": 1,
+        "header_custom": "<!-- MailerLite Universal -->\n<script>\n(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){\nvar c={ a:arguments,q:[]};var r=this.push(c);return \"number\"!=typeof r?r:f.bind(c.q);}\nf.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);\nvar _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));\n_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');\n\nvar ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');\n</script>\n<!-- End MailerLite Universal -->"
       },
       "components": [
         {
@@ -5356,11 +5364,11 @@
           "_name": "content14",
           "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#131313\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\"><b>E agora que sabemos que você é um verdadeiro fã da Lady, </b>podemos compartilhar algo bastante pessoal.<br>A Lady Newton pretende, em 2020, lançar suas primeiras músicas autorais e vai ser um prazer poder dividir com você o esse material que ta sendo produzido com tanto carinho. Ele será disponibilizado no spotify e nas outras principais plataformas digitais, e é claro que você será o primeiro a saber.</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\">Atualmente a banda tem 5 composições \"prontas\" e várias ideias gravadas, só esperando os próximos ensaios para serem finalizadas.&nbsp;Todas as letras até agora foram compostas por Caio, nosso vocalista, e sendo de engenharia foi muito dificil no começo se acostumar com a ideia de escrever sentimentos no papel. &nbsp;Afinal, nunca ensinaram isso para ele em Cálculo 1.<br><br></p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Caio era uma tragédia nas redações do colégio, então era de se esperar que as primeiras letras dele seriam no mínimo muito brutas (pra não dizer péssimas kkk) . Entretanto, como tudo na vida é questão de prática, a gente vai compartilhar aqui a PRIMEIRA MÚSICA que ele fez. \"Motivo\" foi feita para uma \"crush\" de Caio, no começo da faculdade.<br><br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rQc7rZW6xT",
+          "_anchor": "content14-2e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content14-2e"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5381,11 +5389,11 @@
           "_name": "content14",
           "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#131313\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\"><br>Nem preciso dizer que não deu certo, a \"crush\" foi embora. Fe<span style=\"font-size: 1rem;\">lizmente, a música ficou registrada na internet. &nbsp;<br></span><span style=\"font-size: 1rem;\"><br>Quando ela foi gravada (2012), Caio nem imaginava que iria fazer aulas de canto e de guitarra, e que iria formar uma banda como a Lady Newton. &nbsp;<br><br></span></p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rQcfF9z8Mo",
+          "_anchor": "content14-2j",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content14-2j"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5413,11 +5421,11 @@
           "_name": "video2",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"43\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://youtu.be/zsy-_hW3L7w?loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "rQcaGZyWD5",
+          "_anchor": "video2-2g",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "video2-2g"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5438,11 +5446,11 @@
           "_name": "content14",
           "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#131313\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\"><i><b>Motivo</b><br></i><br>Tudo na vida tem um começo\n<br><span style=\"font-size: 1rem;\">Um destino, sempre foi assim.&nbsp;<br></span><span style=\"font-size: 1rem;\">Naquele instante, eu não sabia&nbsp;<br></span><span style=\"font-size: 1rem;\">o que dizer.&nbsp;<br><br></span><span style=\"font-size: 1rem;\">E a cada hora que passa&nbsp;<br></span><span style=\"font-size: 1rem;\">Eu me pergunto&nbsp;<br></span><span style=\"font-size: 1rem;\">Como seria...<br></span><span style=\"font-size: 1rem;\">Nós dois na sombra andando,&nbsp;<br></span><span style=\"font-size: 1rem;\">por qualquer caminho.&nbsp;<br><br></span><span style=\"font-size: 1rem;\">Não procuro por respostas,<br></span><span style=\"font-size: 1rem;\">Não tenho motivo.&nbsp;<br></span><span style=\"font-size: 1rem;\">A verdade já foi dita&nbsp;<br></span><span style=\"font-size: 1rem;\">Só você que não quer ver&nbsp;<br></span><span style=\"font-size: 1rem;\">Talvez seja um disfarce&nbsp;<br></span><span style=\"font-size: 1rem;\">Mas eu finjo&nbsp;<br></span><span style=\"font-size: 1rem;\">que não percebi&nbsp;<br><br></span><span style=\"font-size: 1rem;\">E eu continuo tentando&nbsp;<br></span><span style=\"font-size: 1rem;\">É o meu destino&nbsp;<br></span><span style=\"font-size: 1rem;\">Não procuro por respostas&nbsp;<br></span><span style=\"font-size: 1rem;\">Não, tenho motivo<br><br></span></p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\">Nós dois na sombra andando,\n<br><span style=\"font-size: 1rem;\">por qualquer caminho.&nbsp;<br></span><span style=\"font-size: 1rem;\">Não procuro por respostas,&nbsp;<br></span><span style=\"font-size: 1rem;\">Não tenho motivo.</span></p><p class=\"p-3\"><span style=\"font-size: 1rem;\">A verdade já foi dita\n<br></span><span style=\"font-size: 1rem;\">Só você que não quer ver&nbsp;<br></span><span style=\"font-size: 1rem;\">Talvez seja um disfarce&nbsp;<br></span><span style=\"font-size: 1rem;\">Mas eu finjo&nbsp;<br></span><span style=\"font-size: 1rem;\">que não percebi&nbsp;</span></p><p class=\"p-3\"><span style=\"font-size: 1rem;\">\n</span></p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">E eu continuo tentando\n<br><span style=\"font-size: 1rem;\">É o meu destino&nbsp;</span></p><p class=\"p-3\">\n</p><p class=\"p-3\">Não procuro por respostas\n</p><p class=\"p-3\">\n</p><p class=\"p-3\">Não, tenho motivo\n</p><p class=\"p-3\">\n</p><p class=\"p-3\"><br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rQcbdbhzaT",
+          "_anchor": "content14-2h",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content14-2h"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5460,11 +5468,11 @@
           "_name": "content4",
           "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Por hoje é só!</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">A gente se encontra nos próximos e-mails!&nbsp;<br><br>PS: Para ganhar mais um brinde, tira um print  desse site e mostra pra gente no próximo show que você for!&nbsp;</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rQccf6ToTC",
+          "_anchor": "content4-2i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-2i"
+          "_params": {}
         },
         {
           "alias": false,
