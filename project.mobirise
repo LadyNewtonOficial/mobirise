@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "LADY NEWTON",
-    "currentPage": "5-coisas-que-todo-fa-deve-saber.html",
+    "currentPage": "blog.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -71,7 +71,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 136,
+    "uniqCompNum": 151,
     "versionPublish": "4.12.0",
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/estampa1-128x176.png",
@@ -1117,7 +1117,7 @@
             }
           },
           "_name": "features3",
-          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Image\" name=\"showImage\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#efefef\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#131313\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/ladylist-1046x1046.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Ladylist da Semana</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Toda semana nosso guitarrista Vitor prepara uma seleção musical no Spotify, sempre com um tema inteligente e desafiador!\n<br>\n<br>Clique aqui para ver o que ele aprontou dessa vez!</p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://open.spotify.com/playlist/28InBFWeWq68xERoOko7EN?si=mvnU6onPRyyZZXWsDNMsVQ\" class=\"btn btn-secondary-outline\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-spotify mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;Lady List</a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/quiz-1046x1046.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Quiz da Lady Newton</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Faça esse teste rapidinho e descubra qual dos membros mais se parece com você!<br><br><br>Sem dúvidas esse é um quiz bastante revelador!<br></p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://4screens.net/e/5ddc0eab5edc8b0100093489\" class=\"btn btn-secondary-outline\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-question mbr-iconfont mbr-iconfont-btn\"></span>Quem é você na Lady?</a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2020-01-28-at-4.32.28-pm-676x676.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Flappy Newton</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Temos um jogo no modelo Flappy Bird! Use toda a sua habilidade para fazer com que Caio desvie dos obstáculos!  O recordista leva uma camisa da Banda para casa!<br><br><br></p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://flappycreator.com/flappy.php?id=5de12d51eae1b\" class=\"btn btn-secondary-outline\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-android mbr-iconfont mbr-iconfont-btn\"></span>\n                            Flappy Newton</a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/background4.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Unlimited Sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                           Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                        </p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">\n                            Learn More\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Image\" name=\"showImage\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#efefef\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#131313\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/ladylist-1046x1046.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Ladylist da Semana</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Toda semana nosso guitarrista Vitor prepara uma seleção musical no Spotify, sempre com um tema inteligente e desafiador!\n<br>\n<br>Clique aqui para ver o que ele aprontou dessa vez!</p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://open.spotify.com/playlist/28InBFWeWq68xERoOko7EN?si=mvnU6onPRyyZZXWsDNMsVQ\" class=\"btn btn-secondary-outline\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-spotify mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;Lady List</a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/quiz-1046x1046.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Quiz da Lady Newton</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Faça esse teste rapidinho e descubra qual dos membros mais se parece com você!<br><br><br>Sem dúvidas esse é um quiz bastante revelador!<br></p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://4screens.net/e/5ddc0eab5edc8b0100093489\" class=\"btn btn-secondary-outline\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-question mbr-iconfont mbr-iconfont-btn\"></span>Quem é você na Lady?</a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2020-01-28-at-4.32.28-pm-676x676.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Flappy Newton</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Temos um jogo no modelo Flappy Bird! Use toda a sua habilidade para fazer com que Vitor desvie dos obstáculos!<br>Atualizado 10/03/2020 - Dia do Guitarrista!<br><br></p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://flappycreator.com/flappy.php?id=5e69156c8ebdf\" class=\"btn btn-secondary-outline\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-android mbr-iconfont mbr-iconfont-btn\"></span>\n                            Flappy Newton</a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/background4.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Unlimited Sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                           Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                        </p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">\n                            Learn More\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "features3-17",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -5872,7 +5872,7 @@
       "settings": {
         "meta_descr": "Estreia da Quarta Autoral com as bandas Paranozes, Baha! e Duque de Arake....Você deve estar se perguntando... por que a Lady Newton iria falar sobre esse evento que o The Queen organizou, se nós nem fizemos parte da programação?\n\n É simples, a nossa banda não vive numa bolha. Estamos inseridos em um ecosistema que envolve artistas, produtores, casas de shows e outros parceiros... E no fundo um depende do outro para crescer. As bandas de rock autoral não possuem tantos espaços assim para mostrar o seu trabalho, e quando eu vi que o The Queen abriu as portas para essa proposta de show, fiquei no mínimo curioso.  \n\nPara quem não conhece o bar, o The Queen fica em Boa Viagem e já é notoriamente conhecido por ser um pedacinho de Londres em plena Domingos Ferreira. O ambiente é todo decorado no estilo de um pub britanico, e é uma casa massa de se tocar, a Lady Newton já participou da agenda da casa, junto com outras bandas de cover da cena: Zero Bronca, Malakoff,Rodrigo Morcego, Mac Fly e Gin & Tonic para citar algumas. \n\nMas, recentemente, o The Queen anunciou que abriria as portas para outro tipo de atração: bandas que tem o show permeado de canções próprias. Batizado de \"Quarta Autoral\" o evento possui entrada gratuita e a ideia é fazer com que as bandas tenham um palco, sistema de som e uma platéia disposta a ouvir o seu trabalho. Visitei o bar junto com meu amigo Cauê Castro na quarta feira passada (04/03/2020) e tive a oportunidade de conhecer as três bandas que tocaram na noite: Paranozes, Baha! e Duque de Arake. \n",
         "title": "[blog] The Queen abre as portas para o Rock Autoral",
-        "order": 8,
+        "order": 10,
         "header_custom": "<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '2246962085406498');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=2246962085406498&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->",
         "meta_image": "@PROJECT_PATH@/assets/images/whatsapp-image-2020-03-07-at-12.39.47-1080x1052.jpg"
       },
@@ -6478,7 +6478,7 @@
             }
           },
           "_name": "content6",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"145\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked>  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2020-03-07-at-11.26.55-1-744x455.jpg\" alt=\"foto retirada do instagram\" title=\"Paranozes (@paranozes)\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Em seguida, a <a href=\"http://instagram.com/baha.oficial\" class=\"text-secondary\" target=\"_blank\">Baha!</a> subiu no palco. </b>Antes mesmo de começar o show, eu estava trocando uma ideia com Lucas Bahamontes (vocal), dei &nbsp;a sorte dele ser amigo de Cauê. Lucas é um músico singular, e a Baha! explora diversas tonalidades musicais, sem perder a pegada do rock. &nbsp;Até um cover de Billie Eilish rolou no setlist!<br><br>Eles tocaram músicas do seu EP <a href=\"https://open.spotify.com/album/3xDgZ4KY65qbjVpWWAI1qy?si=Ur8f95E0QiCYz7gxia4a7Q\" target=\"_blank\" class=\"text-secondary\">\"Y&nbsp;(2019)\"</a> e algumas canções inéditas, previstas para serem lançadas ainda esse ano.<br><br> Uma das músicas que gostei, foi \"Deny\", a banda tocou de forma emocionante, com direito a platéia toda usando a lanterna do celular para criar um clima diferenciado! <br><br>Dá o play no clipe deles! &nbsp;Aproveita para cantar o refrão comigo, &nbsp;que é bem facinho de aprender.&nbsp;</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"145\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked>  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2020-03-07-at-11.26.55-1-744x455.jpg\" alt=\"foto retirada do instagram\" title=\"Paranozes (@paranozes)\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Em seguida, a <a href=\"http://instagram.com/baha.oficial\" class=\"text-secondary\" target=\"_blank\">Baha!</a> subiu no palco. </b>Antes mesmo de começar o show, eu estava trocando uma ideia com Lucas Bahamondes (vocal), dei &nbsp;a sorte dele ser amigo de Cauê. Lucas é um músico singular, e a Baha! explora diversas tonalidades musicais, sem perder a pegada do rock. &nbsp;Até um cover de Billie Eilish rolou no setlist!<br><br>Eles tocaram músicas do seu EP <a href=\"https://open.spotify.com/album/3xDgZ4KY65qbjVpWWAI1qy?si=Ur8f95E0QiCYz7gxia4a7Q\" target=\"_blank\" class=\"text-secondary\">\"Y&nbsp;(2019)\"</a> e algumas canções inéditas, previstas para serem lançadas ainda esse ano.<br><br> Uma das músicas que gostei, foi \"Deny\", a banda tocou de forma emocionante, com direito a platéia toda usando a lanterna do celular para criar um clima diferenciado! <br><br>Dá o play no clipe deles! &nbsp;Aproveita para cantar o refrão comigo, &nbsp;que é bem facinho de aprender.&nbsp;</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content6-2u",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -7292,6 +7292,34 @@
             }
           },
           "_name": "header2",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/whatsapp-image-2020-03-12-at-13.53.58-1080x1071.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#131313\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Mascates e Cospefogo invadiram a Zona Sul!</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Depois do sucesso da quarta autoral anterior, eu sabia que iria viciar em acompanhar as bandas daqui na jornada de shows autorais. Fiquei de olho no instagram do @thequeenrecife para ver quais seriam as próximas atrações, e por uma coincidência do destino, descobri que a Mascates iria tocar no evento.  Essa banda e a Gelo Baiano me fizeram \"abrir os ouvidos\" para a nova geração do rock recifense, e  certamente eles influenciam meu modo de compor as músicas da Lady Newton. Eu já estava devendo ir a um show dos meninos a muito tempo, e não iria perder de voltar ao The Queen para fortalecer a cena e conhecer melhor essa galera massa. De brinde ainda pude prestigiar o show da Cospefogo! \n<br>\n<br>Continua lendo para ver a minha experiência em mais detalhe, que tal  me acompanhar nessa descoberta?</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"blog_Mascates-e-Cospefogo-invadiram-a-zona-sul.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Ler o Resto!</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_anchor": "header2-46",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rT2WY3BWyA",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "H1": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "header2",
           "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/lady-camisa-1280x640.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#131313\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    5 coisas que todo fã deve saber sobre a Lady Newton!</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Nós temos algumas peculiaridades como banda, e nada mais justo do que explicar elas para todos os fãs que pegaram o bonde andando. Afinal desde 2017 a Lady vem se apresentando ao vivo nos bares de Recife, e chegamos recentemente a marca de 1.000 seguidores no Instagram (@ladynewtonoficial) . \n<br>É de se esperar,portanto, que você não conheça tudo da banda. Nesse post eu separei as 5 coisas mais importantes quando o assunto é Lady Newton.&nbsp;</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"5-coisas-que-todo-fa-deve-saber.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Ler o Resto!</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_anchor": "header2-3r",
           "_isUserblock": true,
@@ -7419,6 +7447,306 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
+        },
+        {
+          "alias": "popup-builder",
+          "_isSecondary": true,
+          "typeCompatible": "!isAMP",
+          "_styles": {
+            "&.popup-builder": {
+              "background-color": "#ffffff",
+              ".modal": {
+                "position": "relative",
+                "display": "block",
+                "z-index": "1"
+              },
+              ".modal-dialog": {
+                "margin-top": "60px",
+                "margin-bottom": "60px"
+              }
+            },
+            ".modal-content, .modal-dialog": {
+              "height": "auto"
+            },
+            ".form-wrapper": {
+              ".input-group-btn": {
+                "margin-right": "auto",
+                "margin-left": "auto",
+                ".btn": {
+                  "margin": "0 !important"
+                }
+              },
+              "@media (min-width: 769px)": {
+                ".mbr-form": {
+                  ".form-group, .input-group-btn": {
+                    "padding": "0 .5rem"
+                  }
+                }
+              }
+            },
+            ".card-img": {
+              "width": "100%",
+              "margin": "auto",
+              "border-radius": "0"
+            },
+            ".mbr-figure": {
+              "img": {
+                "display": "block",
+                "width": "100%",
+                "-ms-flex-item-align": "center",
+                "-ms-grid-row-align": "center",
+                "-webkit-align-self": "center",
+                "align-self": "center"
+              }
+            },
+            ".mbr-text": {
+              "text-align": "center"
+            },
+            ".pt-0": {
+              "padding-top": "0 !important"
+            },
+            ".pb-0": {
+              "padding-bottom": "0 !important"
+            },
+            ".form-content": {
+              "-ms-flex-pack": "center",
+              "justify-content": "center",
+              "text-align": "center"
+            },
+            ".mbr-overlay": {
+              "bottom": "0",
+              "left": "0",
+              "position": "absolute",
+              "right": "0",
+              "top": "0",
+              "z-index": "0",
+              "pointer-events": "none"
+            },
+            ".modal-open": {
+              "overflow": "hidden"
+            },
+            ".modal-open .modal": {
+              "overflow-x": "hidden",
+              "overflow-y": "auto"
+            },
+            ".modal": {
+              "position": "fixed",
+              "top": "0",
+              "left": "0",
+              "z-index": "1050",
+              "display": "none",
+              "width": "100%",
+              "height": "100%",
+              "overflow": "hidden",
+              "outline": "0"
+            },
+            ".modal-dialog": {
+              "position": "relative",
+              "width": "auto",
+              "margin": ".5rem",
+              "pointer-events": "none"
+            },
+            ".modal.fade .modal-dialog": {
+              "transition": "transform 0.3s ease-out, -webkit-transform 0.3s ease-out",
+              "-webkit-transform": "translate(0, -50px)",
+              "transform": "translate(0, -50px)"
+            },
+            ".modal.show .modal-dialog": {
+              "-webkit-transform": "none",
+              "transform": "none"
+            },
+            ".modal-dialog-centered": {
+              "display": "flex",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "min-height": "~\"calc(100% - (.5rem * 2))\""
+            },
+            ".modal-dialog-centered::before": {
+              "display": "block",
+              "height": "~\"calc(100vh - (.5rem * 2))\"",
+              "content": "\"\""
+            },
+            ".modal-content": {
+              "background": "@cardBg",
+              "position": "relative",
+              "display": "flex",
+              "-ms-flex-direction": "column",
+              "flex-direction": "column",
+              "width": "100%",
+              "pointer-events": "auto",
+              "background-clip": "padding-box",
+              "border": "none",
+              "outline": "0",
+              "-webkit-box-shadow": "0 10px 40px 0 rgba(0, 0, 0, 0.2)",
+              "box-shadow": "0 10px 40px 0 rgba(0, 0, 0, 0.2)"
+            },
+            ".modal-backdrop": {
+              "position": "fixed",
+              "top": "0",
+              "left": "0",
+              "z-index": "1040",
+              "width": "100vw",
+              "height": "100vh",
+              "background-color": "#000"
+            },
+            ".modal-backdrop.fade": {
+              "opacity": "0"
+            },
+            ".modal-backdrop.show": {
+              "opacity": ".5"
+            },
+            ".modal-header": {
+              "display": "flex",
+              "-ms-flex-align": "start",
+              "align-items": "flex-start",
+              "-ms-flex-pack": "justify",
+              "justify-content": "space-between",
+              "padding": "1rem",
+              "border-bottom": "none"
+            },
+            ".modal-header .close": {
+              "position": "absolute",
+              "top": "auto",
+              "right": "1rem",
+              "margin": "-1rem -1rem -1rem auto",
+              "padding": "1rem",
+              "opacity": ".75",
+              "&:hover": {
+                "opacity": "1"
+              },
+              "&:focus": {
+                "outline": "none"
+              }
+            },
+            ".modal-title": {
+              "line-height": "1.5",
+              "width": "100%",
+              "margin": "0",
+              "text-align": "center",
+              "color": "#ff3366"
+            },
+            ".modal-body": {
+              "position": "relative",
+              "-ms-flex": "1 1 auto",
+              "flex": "1 1 auto",
+              "padding": "1rem",
+              "min-height": "100%"
+            },
+            ".modal-footer": {
+              "display": "flex",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "-ms-flex-pack": "center",
+              "justify-content": "center",
+              "padding": "1rem",
+              "border-top": "none",
+              "text-align": "center"
+            },
+            ".modal-scrollbar-measure": {
+              "position": "absolute",
+              "top": "-9999px",
+              "width": "50px",
+              "height": "50px",
+              "overflow": "scroll"
+            },
+            "@media (min-width: 576px)": {
+              ".modal-dialog": {
+                "max-width": "500px",
+                "margin": "1.75rem auto"
+              },
+              ".modal-dialog-centered": {
+                "min-height": "~\"calc(100% - (1.75rem * 2))\""
+              },
+              ".modal-dialog-centered::before": {
+                "height": "~\"calc(100vh - (1.75rem * 2))\""
+              },
+              ".modal-sm": {
+                "max-width": "300px"
+              },
+              ".container": {
+                "max-width": "540px"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".modal-lg, .modal-xl": {
+                "max-width": "800px"
+              },
+              ".container": {
+                "max-width": "960px"
+              }
+            },
+            "@media (min-width: 1200px)": {
+              ".modal-xl": {
+                "max-width": "1140px"
+              },
+              ".container": {
+                "max-width": "1140px"
+              }
+            },
+            ".container": {
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px",
+              "margin-right": "auto",
+              "margin-left": "auto"
+            },
+            "@media (min-width: 768px)": {
+              ".container": {
+                "max-width": "720px"
+              }
+            },
+            ".row": {
+              "display": "flex",
+              "-ms-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "margin-right": "-15px",
+              "margin-left": "-15px"
+            },
+            ".col-md-4": {
+              "position": "relative",
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px",
+              "-ms-flex": "0 0 33.333333%",
+              "flex": "0 0 33.333333%",
+              "max-width": "33.333333%"
+            },
+            ".form-group": {
+              "margin-bottom": "1rem"
+            },
+            ".form-control": {
+              "display": "block",
+              "width": "100%",
+              "font-size": "1rem",
+              "font-weight": "400",
+              "line-height": "1.5"
+            },
+            ".col": {
+              "-ms-flex-preferred-size": "0",
+              "flex-basis": "0",
+              "-ms-flex-positive": "1",
+              "flex-grow": "1",
+              "max-width": "100%"
+            },
+            ".col-md-auto": {
+              "position": "relative",
+              "padding-right": "15px",
+              "padding-left": "15px",
+              "-ms-flex": "0 0 auto",
+              "flex": "0 0 auto",
+              "width": "auto",
+              "max-width": "100%"
+            }
+          },
+          "_name": "mbr-popup",
+          "_customHTML": "<section class=\"popup-builder\" group=\"Popup\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Triggers / Show Popup</header>\n        <label>On Click</label>\n        <label>Use [popup-id] with any link or button (Link -&gt; Popup tab)</label>\n\n        <input type=\"checkbox\" title=\"On Timer\" name=\"onTimer\" checked>\n        <input type=\"range\" title=\"Delay (s)\" name=\"onTimerDelay\" min=\"0\" max=\"30\" step=\"1\" value=\"5\" condition=\"onTimer == true\">\n\n        <input type=\"checkbox\" title=\"On Page Exit\" name=\"onPageExit\">\n\n        <input type=\"checkbox\" title=\"On Scroll to End\" name=\"onScroll\">\n\n        <select title=\"Add to Pages:\" name=\"popupOnPages\" multiple condition=\"onTimer == true || onPageExit == true || onScroll == true\"></select>\n\n        <header>Content</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <select title=\"Content Type\" name=\"popupContentType\">\n            <option value=\"1\">None</option>\n            <option value=\"2\" selected>Image</option>\n            <option value=\"3\">Video</option>\n            <option value=\"4\">Form</option>\n        </select>\n\n        <select title=\"Size\" name=\"popupSize\">\n            <option value=\"1\">Small</option>\n            <option value=\"2\" selected>Default</option>\n            <option value=\"3\">Large</option>\n            <option value=\"4\">Extra large</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <input type=\"color\" title=\"Background Color\" name=\"cardBg\" value=\"#ffffff\">\n\n        <header>Overlay</header>\n        <input type=\"color\" title=\"Color\" name=\"popupOverlayColor\" value=\"#000000\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': popupOverlayColor, 'top': 0, 'right': 0, 'bottom': 0, 'left': 0, 'position': absolute, 'z-index': 0, 'pointer-events': none}\">\n    </div>\n\n    <div class=\"modal mbr-popup\" tabindex=\"-1\" role=\"dialog\" data-overlay-color=\"{{popupOverlayColor}}\" data-overlay-opacity=\"{{overlayOpacity}}\" data-on-timer-delay=\"{{onTimer ? onTimerDelay : ''}}\" data-on-exit=\"{{onPageExit}}\" data-on-scroll=\"{{onScroll}}\">\n        <div class=\"modal-dialog\" role=\"document\" mbr-class=\"{\n            'modal-sm': popupSize == 1,\n            '': popupSize == 2,\n            'modal-lg': popupSize == 3,\n            'modal-xl': popupSize == 4\n            }\">\n            <div class=\"modal-content\">\n                <div class=\"modal-header\" mbr-class=\"{'pb-0': showTitle && showText}\">\n                    <h5 class=\"modal-title mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".modal-title\" mbr-if=\"showTitle\">Torne-se um fã de verdade!</h5>\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                        <svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 32 32\" fill=\"currentColor\">\n                            <path d=\"M31.797 0.191c-0.264-0.256-0.686-0.25-0.942 0.015l-13.328 13.326c-0.598 0.581 0.342 1.543 0.942 0.942l13.328-13.326c0.27-0.262 0.27-0.695 0-0.957zM14.472 17.515c-0.264-0.256-0.686-0.25-0.942 0.015l-13.328 13.326c-0.613 0.595 0.34 1.562 0.942 0.942l13.328-13.326c0.27-0.262 0.27-0.695 0-0.957zM1.144 0.205c-0.584-0.587-1.544 0.336-0.942 0.942l30.654 30.651c0.613 0.625 1.563-0.325 0.942-0.942z\"></path>\n                        </svg>\n                    </button>\n                </div>\n\n                <div class=\"modal-body\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">Aperte no botão aqui embaixo para se inscrever na nossa lista de e-mails, você irá receber todas as novidades da banda!<br><br>Existem coisas que a gente só compartilha com os fãs de coração da Lady Newton, e mandamos em forma de e-mail.<br><br>Nunca vamos enviar spam, pode confiar!</p>\n\n                    <div mbr-if=\"popupContentType !== 1\">\n                        <div class=\"card-img mbr-figure\" mbr-if=\"popupContentType == 2\">\n                            <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2020-03-09-at-11.39.20-540x1103.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                            <div mbr-video class=\"video-block mbr-figure\" mbr-if=\"popupContentType == 3\">\n                                <iframe src=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\"></iframe>\n                            </div>\n\n                            <div mbr-form mbr-if=\"popupContentType == 4\" class=\"form-wrapper\">\n                                <form action name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                                    <div class=\"container\">\n                                        <div class=\"row\">\n                                            <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n                                            <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"></div>\n                                        </div>\n                                        <div class=\"row form-content\">\n                                            <div class=\"col-md-4 form-group\" data-for=\"name\" hidden=\"hidden\">\n                                                <input type=\"text\" name=\"name\" placeholder=\"Name\" data-form-field=\"Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" hidden=\"hidden\">\n                                            </div>\n                                            <div class=\"col-md-4 form-group\" data-for=\"lastName\" hidden=\"hidden\">\n                                                <input type=\"text\" name=\"lastName\" placeholder=\"Last Name\" data-form-field=\"Last Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" hidden=\"hidden\">\n                                            </div>\n                                            <div class=\"form-group col\" data-for=\"email\">\n                                                <input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                                            </div>\n                                            <div class=\"col-md-auto input-group-btn\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\">\n                                                <a type=\"submit\" class=\"btn btn-primary\">SUBSCRIBE</a>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </form>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"modal-footer\" mbr-class=\"{'pt-0': popupContentType == 1 || popupContentType == 4}\" mbr-if=\"showButtons\">\n                        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"espacodofa.html#form3-g\" data-app-placeholder=\"Type Text\" target=\"_blank\">Eu Quero!</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n</section>",
+          "_cid": "rSLHNMKUko",
+          "_anchor": "mbr-popup-3s",
+          "_popupId": "mbr-popup-34",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -7427,7 +7755,8 @@
         "meta_descr": "Nós temos algumas peculiaridades como banda, e nada mais justo do que explicar elas para todos os fãs que pegaram o bonde andando. Afinal desde 2017 a Lady vem se apresentando ao vivo nos bares de Recife, e chegamos recentemente a marca de 1.000 seguidores no Instagram (@ladynewtonoficial) . \nÉ de se esperar,portanto, que você não conheça tudo da banda. Nesse post eu separei as 5 coisas mais importantes quando o assunto é Lady Newton. ",
         "title": "[blog] 5 coisas que todo fã deve saber sobre a Lady Newton",
         "order": 9,
-        "meta_image": "@PROJECT_PATH@/assets/images/ladyrelease-3-1280x785.jpeg"
+        "meta_image": "@PROJECT_PATH@/assets/images/ladyrelease-3-1280x785.jpeg",
+        "header_custom": "<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '2246962085406498');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=2246962085406498&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->"
       },
       "components": [
         {
@@ -7848,11 +8177,11 @@
           "_name": "menu1",
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"5.9\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#131313\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <a href=\"index.html#header2-1\"><img src=\"@PROJECT_PATH@/assets/images/estampa1invertida-01-01-2-102x144.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                        Lady Newton</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"conhecaladynewton.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-user mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(249, 249, 249);\"></span>Conheça\n                        </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"espacodofa.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-star mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(249, 249, 249);\"></span>Fãs\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"epk.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Contratar</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rOYcTy2LbV",
+          "_anchor": "menu1-37",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-37"
+          "_params": {}
         },
         {
           "alias": false,
@@ -7894,11 +8223,11 @@
           "_name": "image2",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2020-01-13-at-8.39.37-am-1-1280x640.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\">\n                    5 Coisas que todo fã deve saber sobre a Lady Newton</div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
           "_cid": "rSKPJ27lBD",
+          "_anchor": "image2-39",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-39"
+          "_params": {}
         },
         {
           "alias": false,
@@ -7916,11 +8245,11 @@
           "_name": "content4",
           "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    5 coisas que todo fã deve saber sobre a Lady Newton!</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Você PRECISA conhecer todas elas para entrar no nosso fã clube, no dia que ele for criado.</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rSKQ5KbXY8",
+          "_anchor": "content4-3a",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-3a"
+          "_params": {}
         },
         {
           "alias": false,
@@ -7938,11 +8267,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>Nós temos algumas peculiaridades como banda,</b> e nada mais justo do que explicar elas para todos os fãs que pegaram o bonde andando. Afinal desde 2017 a Lady vem se apresentando ao vivo nos bares de Recife, e chegamos recentemente a marca de 1.000 seguidores no Instagram (<a href=\"http://instagram.com/ladynewtonoficial\" target=\"_blank\" class=\"text-secondary\">@ladynewtonoficial</a>) .&nbsp;<br><span style=\"font-size: 1rem;\">É de se esperar,portanto, que você não conheça tudo da banda. Nesse post eu separei as 5 coisas mais importantes quando o assunto é Lady Newton.&nbsp;</span><br></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rSKQW1AwT3",
+          "_anchor": "content1-3b",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-3b"
+          "_params": {}
         },
         {
           "alias": false,
@@ -7957,11 +8286,11 @@
           "_name": "content3",
           "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p><b>#1 A Lady Newton tem toda a história documentada em quadrinhos.</b></p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p>Você nem imagina o trabalho que dá transformar em quadrinho as nossas fotos antigas e escrever tudo que aconteceu nos primórdios da banda. <b><a href=\"historia.html\" target=\"_blank\" class=\"text-secondary\">As Hqs da Lady Newton</a>&nbsp;</b>são leitura obrigatória para quem sente saudades da época em que você juntava o dinheiro do lanche para comprar gibis do homem aranha (só eu que fiz isso?!).</p><p>Nada de super-heróis e nem de super-poderes, nossa jornada foi na raça e a gente pode provar! &nbsp;Para você ter uma ideia, a Lady Newton quase acabou diversas vezes e sempre algo nos salvava na última hora. Também é divertido ver a desgraça que foi o nosso primeiro show ao vivo, com direito a maior chuva no Recife em anos e o desespero &nbsp;que é uma banda amadora não saber mexer numa mesa de som!<br><br>Olhando para trás a gente da risada de tudo isso, e a HQ eternalizou para as gerações futuras todo o nosso drama. Que tal você dar uma conferida? Não dá nem 5 minutinhos de leitura e eu te garanto que é melhor que as aulas de história do Brasil na época do colégio.</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rSKTh7i7Ov",
+          "_anchor": "content3-3c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content3-3c"
+          "_params": {}
         },
         {
           "alias": false,
@@ -7997,11 +8326,11 @@
           "_name": "image1",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <a href=\"historia.html\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/hq-lady-1366x768.png\" width=\"1400\" alt=\"Mobirise\" title></a>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
           "_cid": "rSKWO9vCTq",
+          "_anchor": "image1-3d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image1-3d"
+          "_params": {}
         },
         {
           "alias": false,
@@ -8113,11 +8442,11 @@
           "_name": "video2",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=ZQ5UR75Dn0Y&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "rSL7YelgWG",
+          "_anchor": "video2-3h",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "video2-3h"
+          "_params": {}
         },
         {
           "alias": false,
@@ -8177,11 +8506,11 @@
           "_name": "image3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"32\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cc2952\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2020-03-09-at-15.00.18-710x1170.jpg\" width=\"1400\" alt=\"Mobirise\" title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">Nunca mande isso!</div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
           "_cid": "rSLkrd1K4t",
+          "_anchor": "image3-3o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image3-3o"
+          "_params": {}
         },
         {
           "alias": false,
@@ -8395,11 +8724,875 @@
           "_name": "footer7",
           "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/lady%20camisa-1280x640.jpeg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#131313\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#131313\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"conhecaladynewton.html\" target=\"_blank\">Conheça</a></li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"espacodofa.html\" target=\"_blank\">Espaço do Fã</a></li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"blog.html\" class=\"text-white\" target=\"_blank\"><b>Blog</b></a></li>\n                    \n                    \n                <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"epk.html\" class=\"text-secondary\"><b>Contrate a Lady</b></a></li></ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"http://www.instagram.com/ladynewtonoficial\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social fa-instagram fa\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/ladynewtonoficial\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social fa-facebook-official fa\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.youtube.com/channel/UCSvIbkRHKd4szCvhxex0coA\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social fa-play-circle fa\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2020 Lady Newton - Todos os direitos reservados</p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rPJyv7S1OG",
+          "_anchor": "footer7-38",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "blog_Mascates-e-Cospefogo-invadiram-a-zona-sul.html": {
+      "settings": {
+        "meta_descr": "Depois do sucesso da quarta autoral anterior, eu sabia que iria viciar em acompanhar as bandas daqui na jornada de shows autorais. Fiquei de olho no instagram do @thequeenrecife para ver quais seriam as próximas atrações, e por uma coincidência do destino, descobri que a Mascates iria tocar no evento.  Essa banda e a Gelo Baiano me fizeram \"abrir os ouvidos\" para a nova geração do rock recifense, e  certamente eles influenciam meu modo de compor as músicas da Lady Newton. Eu já estava devendo ir a um show dos meninos a muito tempo, e não iria perder de voltar ao The Queen para fortalecer a cena e conhecer melhor essa galera massa. De brinde ainda pude prestigiar o show da Cospefogo! \n\nContinua lendo para ver a minha experiência em mais detalhe,que tal  me acompanhar nessa descoberta?",
+        "title": "[blog] Mascates e Cospefogo invadiram a Zona Sul!",
+        "order": 8,
+        "header_custom": "<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '2246962085406498');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=2246962085406498&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->",
+        "meta_image": "@PROJECT_PATH@/assets/images/whatsapp-image-2020-03-12-at-13.53.58-1080x1071.jpg"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 1024px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 1023px)": {
+              ".navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"5.9\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#131313\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <a href=\"index.html#header2-1\"><img src=\"@PROJECT_PATH@/assets/images/estampa1invertida-01-01-2-102x144.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                        Lady Newton</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"conhecaladynewton.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-user mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(249, 249, 249);\"></span>Conheça\n                        </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"espacodofa.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-star mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(249, 249, 249);\"></span>Fãs\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"epk.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Contratar</a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "rT1EThiXBu",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-3t"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "P": {
+              "color": "#767676"
+            },
+            "H1": {
+              "color": "#cc2952"
+            }
+          },
+          "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#131313\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Mascates e Cospefogo invadiram a Zona Sul!</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Segunda edição da Quarta Autoral do The Queen abriu espaço para essas duas bandas iradas!</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "rT1ETioObm",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header16-3u"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content3",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\"><a href=\"1a-Quarta-autoral-thequeen.html\" target=\"_blank\" class=\"text-secondary\">Depois do sucesso da quarta autoral anterior</a>, eu sabia que iria viciar em acompanhar as bandas daqui na jornada de shows autorais. Fiquei de olho no instagram do <a href=\"http://www.instagram.com/thequeenrecife\" target=\"_blank\">@thequeenrecife </a>para ver quais seriam as próximas atrações, e por uma coincidência do destino, descobri que a <a href=\"http://www.intagram.com/bandamascates\" target=\"_blank\" class=\"text-secondary\">Mascates </a>iria tocar no evento. &nbsp;Essa banda e a <a href=\"http://www.instagram.com/gelobaiano\" class=\"text-secondary\">Gelo Baiano</a>&nbsp;me fizeram \"abrir os ouvidos\" para a nova geração do rock recifense, e &nbsp;certamente eles influenciam meu modo de compor as músicas da Lady Newton. Eu já estava devendo ir a um show dos meninos a muito tempo, e não iria perder de voltar ao The Queen para fortalecer a cena e conhecer melhor essa galera massa. De brinde ainda pude prestigiar o show da Cospefogo!&nbsp;<br><br>Continua lendo para ver a minha experiência em mais detalhe, que tal &nbsp;me acompanhar nessa descoberta?</div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rT1ETjzfAU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content3-3v"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"145\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked>  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2020-03-12-at-11.13.50-744x442.jpg\" alt=\"foto retirada do facebook\" title=\"Cospefogo (@_cospefogo)\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b><a href=\"http://www.instagram.com/_cospefogo\" target=\"_blank\" class=\"text-secondary\">Cospefogo</a>, isso sim é um nome que te faz imaginar na hora o tipo de som que eles tocam! </b>Quando eu vi o guitarrista da banda (Cabeça) com uma camisa de AC/DC eu já sabia que viria coisa boa. E de fato, o show deles foi hard rock do começo ao fim!<br><br>Um ponto forte da banda é o entrosamento entre os membros. Para você ter uma ideia, &nbsp;na hora dos solos frenéticos o guitarrista botava o pé no bumbo da bateria, o baixista entrava em transe e o cantor incendiava a galera junto...rolou até uma participação no backvocal dos fãs mais empolgados!<br><br>Ao descerem do palco, eu tive a oportunidade de trocar uma ideia com Mau Vitorino, o vocalista da Cospefogo. Gente finíssima, ele também contribui para a cena de outras formas, Maurício é o curador de uma <a href=\"https://open.spotify.com/playlist/2UfAz2sFfC6nmloCwOGTkD?si=mM3HBihcRleoq2TOgwOGAw\" target=\"_blank\" class=\"text-secondary\">playlist do spotify chamada Rock Recife</a>&nbsp;. São 167 músicas, todas elas de bandas autorais daqui da nossa terra, literalmente horas de rock pernambucano para conhecer, graças a esse cara! <br><br>Além disso, ele também organiza a \"Terça Autoral\" do Burburinho, um pico massa pra quem quer curtir música nova.&nbsp;<br><br>A Cospefogo entrou na minha mente com refrões fáceis de cantar (\"Garota Tubarãããããããããão\") e um rock' n' roll autêntico diretamente da Zona Norte. &nbsp;Eles estão prestes a lançar nas plataformas digitais o primeiro EP da banda, \"Pronto para Explodir\". Separei um video aqui pra você sacar a banda:<br><br><br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rT1ETkzldz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content6-3w"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(0deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video3",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"55\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#000000\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://youtu.be/eIJhWpIRl7Q?loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_cid": "rT1ETlvqJX",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "video3-3x"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"145\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked>  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2020-03-12-at-12.32.37-744x992.jpeg\" alt=\"Todo mundo com a camisa, foto top!\" title=\"Banda Mascates (@mascates)\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Confesso que ir pra um show autoral quando você conhece todas as músicas da banda é algo indescritível. </b>Eu curti muito o <a href=\"https://open.spotify.com/album/1fQsLzTu2RKqKthLzMzFDg?si=U8ORatE4SKmivHtCR099lQ\" target=\"_blank\" class=\"text-secondary\">primeiro álbum</a> da Mascates, &nbsp;e já cantei muito no carro/chuveiro algumas músicas (Lara, Olhos Verdes e Fracasso), então pode-se dizer que era impossível não se envolver com a primeira apresentação que vejo dos caras!<br><br>Eles tocaram as melhores músicas do CD e fizeram dois covers, um de Otto e um de Chico Science. Agora o que mais me chamou a atenção foi eles terem tocado duas músicas inéditas! Como fã da Mascates, eu me sinto honrado em ter escutado antes de todo mundo! As duas canções envolvem ritmos novos que a banda vem explorando&nbsp;<br><br><a href=\"https://open.spotify.com/artist/6VotsnjQwJ8vE8j8MVUSnW?si=1HKtzdAlRvmRth7S6xhELw\" target=\"_blank\" class=\"text-secondary\">Você precisa conhecer a banda</a><a href=\"https://open.spotify.com/artist/6VotsnjQwJ8vE8j8MVUSnW?si=1HKtzdAlRvmRth7S6xhELw\" target=\"_blank\" class=\"text-secondary\" style=\"font-weight: bold;\">,&nbsp;</a>o estilo que eles tocam é na mesma vibe do que a Lady Newton vem preparando e compondo até agora. Eu tenho certeza que um dia a gente vai dividir o mesmo palco com eles, e foi um prazer poder consolidar a amizade entre as duas bandas (a gente já trocava figurinha pelo instagram).&nbsp;<br><br>Separei aqui para você o clipe deles, da música Olinda. Nem preciso dizer que foi gravado durante o carnaval, com direito a \"vuco vuco\" nas ladeiras e muita serpentina no ar, assite ai!<br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rT1ETmgvlU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content6-3y"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(0deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video3",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"55\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#000000\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://youtu.be/i7ITbuKXHW0?loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rT1ETmZJ5R",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "video3-3z"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Um agradecimento especial a galera da <a href=\"http://instagram.com/midamidiaprod\" target=\"_blank\">Midamidia Produções</a> que convidou as duas bandas para o evento, vocês continuam arrasando nas programações!&nbsp;</p><p><b>Eu espero que você esteja gostando dessa série de artigos,</b>&nbsp;é uma aventura que tem me ensinado algumas coisas valiosas para aplicar na Lady Newton. Poder vivenciar como fã o show de uma banda emergente, sabendo das dificuldades de querer expor sua música (por estar também no meio) me permitiu apreciar ainda mais a performance ao vivo. Tomara que eu tenha passado um pouco dessa sensação para você que tá lendo!&nbsp;<br><br>Quem sabe no futuro você mesmo não pode sentir isso vendo um show da gente? &nbsp;Eu vou torcer por isso!<br><br><i>PS: Obrigado por vir acompanhando essas postagens, a ideia é a Lady Newton manter esse canal de conversa sempre aberto a sugestões e críticas. Se você gostou, que tal comentar aqui embaixo o que achou?</i><br><br><br><br><br><br></p><p><br></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rT1ETp5O7o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-42"
+        },
+        {
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "socialFacebook": true,
+            "postsNumber": "5",
+            "socialGoogle": false,
+            "socialDisqus": false,
+            "shortName": "",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/facebook-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/disqus-comments.jpg\"></div>",
+          "alias": "facebook-comments",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "facebook-comments-block",
+          "_anchor": "facebook-comments-block-43"
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(45deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "img": {
+              "height": "210px",
+              "object-fit": "cover",
+              "width": "210px",
+              "border-radius": "100%"
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            ".mbr-text": {
+              "color": "#cccccc"
+            },
+            ".item": {
+              "display": "inline-flex",
+              "align-items": "center",
+              "padding-right": "2rem"
+            },
+            ".mbr-iconfont": {
+              "color": "@IconsColor !important",
+              "font-size": "1rem!important",
+              "padding-right": "0.5rem",
+              "padding-bottom": "0.1rem"
+            },
+            ".date": {
+              "margin": "0",
+              "color": "#cccccc"
+            },
+            ".img-col": {
+              "margin": "auto 0"
+            },
+            "@media (max-width: 767px)": {
+              ".icon-box": {
+                "flex-direction": "column"
+              },
+              ".item": {
+                "padding-right": "0rem",
+                "padding-bottom": "0.3rem"
+              },
+              "img": {
+                "margin-bottom": "2rem"
+              }
+            }
+          },
+          "_name": "extTeams17",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Reverse Media\" name=\"showReverse\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Date\" name=\"showDate\" checked>\n        <input type=\"color\" title=\"Icons Color\" name=\"IconsColor\" value=\"#cccccc\" selected condition=\"showDate\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/ladyrelease-2-1280x785.jpeg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#000000\" condition=\"gradientBg && bg.type == 'color'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse': showReverse}\">\n\n            <div class=\"col-md-4 img-col col-lg-3\">\n                <div class=\"image align-center\">\n                    <img src=\"@PROJECT_PATH@/assets/images/boa19-420x747.jpeg\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n\n\n\n            <div class=\"col-md-8 col-lg-6\">\n                <div class=\"media-content\">\n                    <h1 class=\"mbr-section-title mbr-white align-left pb-2 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">Autor desse post</h1>\n                    <h3 class=\"mbr-section-subtitle mbr-white mbr-semibold align-left mbr-light pb-2 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-1\">Caio Neves</h3>\n                    <div class=\"mbr-section-text mbr-black pb-2 \">\n                        <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Vocalista, chefe do marketing e famoso por fazer os memes mais &nbsp;toscos do instagram da Lady Newton.</p>\n                    </div>\n\n                    <div class=\"icon-box align-left\" mbr-if=\"showDate\">\n                        <div class=\"item\">\n                            <span mbr-icon class=\"mbr-iconfont mobi-mbri-clock mobi-mbri\"></span>\n                            <p class=\"date mbr-white mbr-fonts-style\" data-app-selector=\".icon-box\" mbr-theme-style=\"display-7\">12-03-2020</p>\n                        </div>\n                        <div class=\"item\">\n                            <a href=\"espacodofa.html#form3-g\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon54-v2-email-app-2\"></span></a>\n                            <p class=\"date mbr-white mbr-fonts-style\" data-app-selector=\".icon-box\" mbr-theme-style=\"display-7\"><a href=\"espacodofa.html#form3-g\" class=\"text-white\">Se inscrever na lista de e-mails</a></p>\n                        </div>\n                    </div>\n\n\n                </div>\n            </div>\n\n\n        </div>\n    </div>\n\n</section>",
+          "_cid": "rT1ETqcG2A",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "extTeams17-44"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".media-container-row": {
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              ".foot-menu": {
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-justify-content": "center",
+                "justify-content": "center",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                }
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.5rem",
+                  "color": "#ffffff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                }
+              },
+              ".row-copirayt": {
+                "word-break": "break-word",
+                "width": "100%",
+                "p": {
+                  "width": "100%"
+                }
+              }
+            }
+          },
+          "_name": "footer7",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/lady%20camisa-1280x640.jpeg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#131313\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#131313\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"conhecaladynewton.html\" target=\"_blank\">Conheça</a></li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"espacodofa.html\" target=\"_blank\">Espaço do Fã</a></li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"blog.html\" class=\"text-white\" target=\"_blank\"><b>Blog</b></a></li>\n                    \n                    \n                <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"epk.html\" class=\"text-secondary\"><b>Contrate a Lady</b></a></li></ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"http://www.instagram.com/ladynewtonoficial\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social fa-instagram fa\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/ladynewtonoficial\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social fa-facebook-official fa\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.youtube.com/channel/UCSvIbkRHKd4szCvhxex0coA\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social fa-play-circle fa\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2020 Lady Newton - Todos os direitos reservados</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rT1ETry8Ba",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
           "_params": {},
-          "_anchor": "footer7-38"
+          "_anchor": "footer7-45"
         }
       ]
     }
