@@ -6319,6 +6319,37 @@ section.lazy-placeholder:after {
 .cid-rSz2SZWZgh H2 {
   color: #ffffff;
 }
+.cid-rWVjsiDfeT {
+  padding-top: 135px;
+  padding-bottom: 135px;
+  background-image: url("../../../assets/images/dsc01240-2000x1124.jpg");
+}
+.cid-rWVjsiDfeT H1 {
+  color: #ff3366;
+}
+.cid-rWVjtlZ2Wa {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #000000;
+}
+.cid-rWVjtlZ2Wa .line {
+  background-color: #000000;
+  color: #000000;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rWVjtlZ2Wa .section-text {
+  padding: 2rem 0;
+}
+.cid-rWVjtlZ2Wa .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rWVjtlZ2Wa .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rWIvA7xXJi {
   padding-top: 135px;
   padding-bottom: 135px;
@@ -6353,7 +6384,6 @@ section.lazy-placeholder:after {
 .cid-rWfZmL2qSL {
   padding-top: 120px !important;
   padding-bottom: 105px !important;
-  background-image: url("file:///C:/Users/Cliente/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-01-27_141809/assets/images/whatsapp%20image%202020-04-15%20at%2016.36.24-1200x540.jpeg") !important;
 }
 .cid-rWfZmL2qSL H1 {
   color: #ff3366!important;
