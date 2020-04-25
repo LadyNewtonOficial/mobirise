@@ -1519,6 +1519,9 @@ section.lazy-placeholder:after {
 .cid-rOYsaDCXX8 .card-title {
   color: #232323;
 }
+#custom-html-9e {
+  background-color: #131313;
+}
 .cid-rOTJNH9iCp {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -8681,54 +8684,8 @@ section.lazy-placeholder:after {
   padding: 0rem 2.5rem 3rem 2.5rem;
   background-color: #ffffff;
 }
-.cid-rVo47usEsm {
-  padding-top: 0px;
-  padding-bottom: 90px;
+#custom-html-9f {
   background-color: #000000;
-}
-.cid-rVo47usEsm .mbr-section-subtitle {
-  color: #767676;
-  text-align: center;
-}
-.cid-rVo47usEsm .formoid {
-  margin: auto;
-}
-.cid-rVo47usEsm .form-control {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-.cid-rVo47usEsm .input-group-btn .btn {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin: 0 !important;
-}
-.cid-rVo47usEsm a:not([href]):not([tabindex]) {
-  color: #fff;
-}
-.cid-rVo47usEsm a.btn-white:not([href]):not([tabindex]) {
-  color: #333;
-}
-@media (max-width: 768px) {
-  .cid-rVo47usEsm .mbr-form .row {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  .cid-rVo47usEsm .form-group,
-  .cid-rVo47usEsm .input-group-btn,
-  .cid-rVo47usEsm .input-group-btn .btn {
-    max-width: 300px;
-    width: 100%;
-  }
-}
-@media (min-width: 769px) {
-  .cid-rVo47usEsm .mbr-form .row > * {
-    padding: 0 0.5rem;
-  }
-}
-.cid-rVo47usEsm H2 {
-  color: #ff3366;
 }
 .cid-rVo5j4gYSt {
   padding-top: 30px;
