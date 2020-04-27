@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:/page18.html/
+         /kitdofa.html/
+         
+Noindex /page18.html/
+        /kitdofa.html/
