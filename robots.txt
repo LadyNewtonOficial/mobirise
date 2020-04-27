@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow:/page18.html/
+         /kitdofa.html/
+        /cgi-bin
+         
+Noindex /page18.html/
+        /kitdofa.html/
