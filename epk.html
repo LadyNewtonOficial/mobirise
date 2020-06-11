@@ -40,11 +40,21 @@
 <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1668x2224.png">
 <link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-2048x2732.png">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="LadyNewton">
+<meta name="apple-mobile-web-app-title" content="Lady Newton">
 <link rel="apple-touch-icon" href="apple-touch-icon.png"></head>
 <body>
 
 <!-- Analytics -->
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "8b211386-0bb6-488c-9a5d-5758675c7145",
+    });
+  });
+</script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159536362-1"></script>
 <script>
@@ -82,7 +92,7 @@
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
                     <a class="nav-link link text-white display-4" href="conhecaladynewton.html"><span class="mbri-user mbr-iconfont mbr-iconfont-btn" style="color: rgb(249, 249, 249);"></span>Conheça
                         </a>
                 </li>
@@ -97,9 +107,18 @@
                                         <li class="nav-item">
                     <a class="nav-link link text-white display-4" href="http://www.ladynewton.com/live" target="_blank"><span class="socicon socicon-youtube mbr-iconfont mbr-iconfont-btn" style="color: rgb(249, 249, 249);"></span>Live
                         </a>
-                </li></ul>
+                </li>
+                       <li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="#" target="_blank"><div class="onesignal-customlink-container"></div>
+                        </a>
+                </li>
             
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-secondary display-4" href="epk.html" target="_blank">Contratar</a></div>
+            
+            </ul>
+            
+ 
+            
+            
         </div>
     </nav>
 </section>
@@ -227,7 +246,7 @@
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8" data-form-type="formoid">
                 <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="sUrWuG+I56CN/n8KWpofMKfxJQW3RNW9Tdi3xjFXOiHZFZNMvKsytqS3rxtudJ1TMNvamu0VMi3hvjH5yGq0ERvfwCtdtY0UK2AGcCHMHNI04yiqoavhfBiXy2OqXIrw.P+DbICFKmC0xXnpyG9pHgGyk6D4++s6coRBMVPk9MQsdmHwP+GG/fnO9mIrtoVFrpyFekqfatJifAQv+qdjfgb4Fe7s35vPKdgPRT6xQpTKsQTirbKcRyrcJzL3ggWvG">
+                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="4sB9PAmMy2dkIHj3aITQ3zc0ga8rlRVx4153nGQM8onO8bmvAH17Ay9XZf9upd/225BbaGKi461OxytSlTap54vHykAM73eQIDuLGTMi5hBS8yKX/OL9V8l2emCvtvwz.VmgCElUqptFEzOBFbNRWSoPeThS8BmUT2iszAUIvqmRO8JQ+etJQBQ7cIHzWCSTTrD8m/IT2ST0jXbi91IeccGTYPysZW7xW6+MI/Fvg+3nmmM/ymC0+Y4VZhQiXKLxN">
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado por entrar em contato conosco, vamos enviar uma resposta o quanto antes!
 
