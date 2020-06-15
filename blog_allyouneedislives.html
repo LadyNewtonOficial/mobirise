@@ -59,16 +59,16 @@ var ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');
 <body>
 
 <!-- Analytics -->
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+
+    var firebaseConfig = {
     apiKey: "AIzaSyBL4WDOmvAu5ezMdspUoX8bh0Zq1y3EEV8",
     authDomain: "ladynewtonapp.firebaseapp.com",
     databaseURL: "https://ladynewtonapp.firebaseio.com",
@@ -81,8 +81,11 @@ var ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-</script>
+  </script>
 
+
+
+<!----  TUDO EM CIMA É FIREBASE -->
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];
@@ -323,7 +326,7 @@ var ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');
     </div>
 </section>
 
-<section class="mbr-section mbr-section__comments" id="facebook-comments-block-6j" data-rv-view="775" style="background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;">
+<section class="mbr-section mbr-section__comments" id="facebook-comments-block-6j" data-rv-view="784" style="background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;">
          
     <div class="mbr-section__container mbr-section__container--isolated addons-container">
         <div class="addons-row">

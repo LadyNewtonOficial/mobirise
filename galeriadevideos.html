@@ -49,16 +49,16 @@
 <body>
 
 <!-- Analytics -->
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+
+    var firebaseConfig = {
     apiKey: "AIzaSyBL4WDOmvAu5ezMdspUoX8bh0Zq1y3EEV8",
     authDomain: "ladynewtonapp.firebaseapp.com",
     databaseURL: "https://ladynewtonapp.firebaseio.com",
@@ -71,8 +71,11 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-</script>
+  </script>
 
+
+
+<!----  TUDO EM CIMA É FIREBASE -->
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];
@@ -96,7 +99,23 @@
 <!-- /Analytics -->
 
 
-  <section class="menu cid-rOYcTy2LbV" once="menu" id="menu1-9b">
+  <section class="mbr-section content4 cid-rYe7rBtN20" id="content4-9s">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-1">
+                    Nossos Covers</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Confira nossa galeria de videos da banda!</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="menu cid-rOYcTy2LbV" once="menu" id="menu1-9b">
 
     
 
@@ -143,22 +162,6 @@
             
         </div>
     </nav>
-</section>
-
-<section class="mbr-section content4 cid-rYe7rBtN20" id="content4-9s">
-
-    
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="title col-12 col-md-8">
-                <h2 class="align-center pb-3 mbr-fonts-style display-1">
-                    Nossos Covers</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Confira nossa galeria de videos da banda!</h3>
-                
-            </div>
-        </div>
-    </div>
 </section>
 
 <section class="features3 cid-rYdAQHk1Y9" id="features3-9r">

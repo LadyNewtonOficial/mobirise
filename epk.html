@@ -45,16 +45,16 @@
 <body>
 
 <!-- Analytics -->
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+
+    var firebaseConfig = {
     apiKey: "AIzaSyBL4WDOmvAu5ezMdspUoX8bh0Zq1y3EEV8",
     authDomain: "ladynewtonapp.firebaseapp.com",
     databaseURL: "https://ladynewtonapp.firebaseio.com",
@@ -67,8 +67,11 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-</script>
+  </script>
 
+
+
+<!----  TUDO EM CIMA É FIREBASE -->
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];
@@ -264,7 +267,7 @@
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8" data-form-type="formoid">
                 <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="nAa7qVDWsA0BQjRV1ve7JDV/xDuGrXaBFvw36UlzVPD2+1halLr8S4nP98FiaoK9qRQ/G+f3ykpm4cUamQeAMlHcDRB6ONJuLVSL5JwAaODu7f8VpqGTSUp6fQlvrwRv.IO2glPUrT/JyMYdBxaxkSehAzUoJaypODBd8Ee9eF/n2FF2KnqiByBJGg+ZpNgSsXL4hFfIM+pYgkcDJQmJbPIcXZB0Yhb/A43oFpFOg0SgfWiSkwL/q20CsynSS91p5">
+                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="Lk/4aT3Y/ZcQz1UxWol1uxGcgFJEfp8TCVJZ8++yeAR78XXir21c5b6JXBC0FVOyvNNpVz+ZYkDE/CyJjyEDOKmQKZH6FQqbjX7XmRgXmjbE302giQA8g7GdmdeKJUdp.u29XdrIDjQvV3fdPvrZSz8LTocI/ecZYI1mg2hLP1RIDRfPE3H1xHhAAtBvKnyoslHiM2+OQ+Z4siTPfpuFYD2Z5b0rkoWPSf99Bg5z7vWSxusuyMaIPb5UVkLzjYKWe">
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado por entrar em contato conosco, vamos enviar uma resposta o quanto antes!
 

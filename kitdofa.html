@@ -45,16 +45,16 @@
 <body>
 
 <!-- Analytics -->
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+
+    var firebaseConfig = {
     apiKey: "AIzaSyBL4WDOmvAu5ezMdspUoX8bh0Zq1y3EEV8",
     authDomain: "ladynewtonapp.firebaseapp.com",
     databaseURL: "https://ladynewtonapp.firebaseio.com",
@@ -67,8 +67,11 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-</script>
+  </script>
 
+
+
+<!----  TUDO EM CIMA É FIREBASE -->
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];
@@ -189,7 +192,7 @@
     </div>
 </section>
 
-<section class="mbr-section mbr-section--no-padding mbr-soundcloud-container" id="soundcloud1-2b" data-rv-view="316" style="background-color: rgb(0, 0, 0); padding-top: 1.5rem; padding-bottom: 1.5rem;">
+<section class="mbr-section mbr-section--no-padding mbr-soundcloud-container" id="soundcloud1-2b" data-rv-view="325" style="background-color: rgb(0, 0, 0); padding-top: 1.5rem; padding-bottom: 1.5rem;">
     <div class="mbr-section__container addons-container addons-row">
             <div class=" addons-container-inner">
                 <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-outside-bottom">

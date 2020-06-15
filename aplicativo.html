@@ -45,16 +45,16 @@
 <body>
 
 <!-- Analytics -->
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+
+    var firebaseConfig = {
     apiKey: "AIzaSyBL4WDOmvAu5ezMdspUoX8bh0Zq1y3EEV8",
     authDomain: "ladynewtonapp.firebaseapp.com",
     databaseURL: "https://ladynewtonapp.firebaseio.com",
@@ -67,8 +67,11 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-</script>
+  </script>
 
+
+
+<!----  TUDO EM CIMA É FIREBASE -->
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];
@@ -103,7 +106,7 @@
         <div class="col-md-6">
             <div class="slider-text  slider-text-two">
               <h2 class="mbr-section-title mbr-fonts-style mbr-bold align-center display-1">Bem Vindo</h2>
-              <h4 class="mbr-text mbr-fonts-style align-center display-7">Arraste para baixo!<br></h4><h4>
+              <h4 class="mbr-text mbr-fonts-style align-center display-7">Versão 1.0 (beta)<br></h4><h4>
             </h4></div>
         </div>
       </div>
@@ -198,7 +201,7 @@
                 <div class="form-block">
                     <div data-form-type="formoid">
                         <!---Formbuilder Form--->
-                        <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="C5e2zUUHQxTIs7iNa+glsa44e+XO98sTFc+Wiqf3Mq09O2T8GAe98abOLwuNZtVgviFWQiTyZRcg4Q+HmWiTa4aozxaN3Qp40hej9Z7RsKzv4ONQAmsynY6iRgywEN6L.k8EI+N3V0pymV8E3uCWfWzm03YmzbSGuo80inQktdAyvZRWXpSvOdlzLFmFN8PwhCAGj8E55aoO1n3rA79+lnt8w7+Za4HmdTd5ejDFjgytvtBIpQkUYcl8HZAJQWxEM">
+                        <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="cVD8rASwHYp034FEf1KX1V0CdXOeeUJ2TGMdD0Q/Stzd3WKVcaue1A61iz2cTFUw+9gqHv6zb3sy/zW2n7DTgaNtleAyMkN2pv8cAi59XKAHUr/32hKIv9KaxZJwXZzT.sh6m4GcCNVd5CUAYndHeFWk8av23qB6tOKU80q9u35nbq2JLCI1FpMoqT85UnQdhLDW+SG986cNMftPG6UqZ0tEwsL3eHWNyEIxrJpEStnLJlD5qHpRREoyiSS+LOZgb">
                             <div class="form-row">
                                 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado pelo carinho!</div>
                                 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>

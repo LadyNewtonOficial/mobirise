@@ -58,16 +58,16 @@ var ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');
 <body>
 
 <!-- Analytics -->
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+
+    var firebaseConfig = {
     apiKey: "AIzaSyBL4WDOmvAu5ezMdspUoX8bh0Zq1y3EEV8",
     authDomain: "ladynewtonapp.firebaseapp.com",
     databaseURL: "https://ladynewtonapp.firebaseio.com",
@@ -80,8 +80,11 @@ var ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-</script>
+  </script>
 
+
+
+<!----  TUDO EM CIMA É FIREBASE -->
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];
@@ -105,56 +108,7 @@ var ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');
 <!-- /Analytics -->
 
 
-  <section class="menu cid-rOYcTy2LbV" once="menu" id="menu1-15">
-
-    
-
-    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-toggleable-sm bg-color transparent">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </button>
-        <div class="menu-logo">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    
-                         <a href="index.html#header2-1"><img src="assets/images/estampa1invertida-01-01-2-102x144.png" alt="" title="" style="height: 5.9rem;"></a>
-                    
-                </span>
-                
-            </div>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="conhecaladynewton.html"><span class="mbri-user mbr-iconfont mbr-iconfont-btn" style="color: rgb(249, 249, 249);"></span>Conheça
-                        </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="espacodofa.html"><span class="fa fa-star mbr-iconfont mbr-iconfont-btn" style="color: rgb(249, 249, 249);"></span>Fãs
-                        </a>
-                </li>
-                            <li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="blog.html"><span class="icon54-v2-design-document mbr-iconfont mbr-iconfont-btn" style="color: rgb(249, 249, 249);"></span>Blog
-                        </a>
-                </li>
-                                        <li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="http://www.ladynewton.com/live" target="_blank"><span class="socicon socicon-youtube mbr-iconfont mbr-iconfont-btn" style="color: rgb(249, 249, 249);"></span>Live
-                        </a>
-                </li>                   
-            </ul>
-            
- 
-            
-            
-        </div>
-    </nav>
-</section>
-
-<section class="mbr-section content4 cid-rOUsywvxfC" id="content4-y">
+  <section class="mbr-section content4 cid-rOUsywvxfC" id="content4-y">
 
     
 
@@ -282,6 +236,55 @@ var ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');
             </div>
         </div>
     </div>
+</section>
+
+<section class="menu cid-rOYcTy2LbV" once="menu" id="menu1-15">
+
+    
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-toggleable-sm bg-color transparent">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    
+                         <a href="index.html#header2-1"><img src="assets/images/estampa1invertida-01-01-2-102x144.png" alt="" title="" style="height: 5.9rem;"></a>
+                    
+                </span>
+                
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="conhecaladynewton.html"><span class="mbri-user mbr-iconfont mbr-iconfont-btn" style="color: rgb(249, 249, 249);"></span>Conheça
+                        </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="espacodofa.html"><span class="fa fa-star mbr-iconfont mbr-iconfont-btn" style="color: rgb(249, 249, 249);"></span>Fãs
+                        </a>
+                </li>
+                            <li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="blog.html"><span class="icon54-v2-design-document mbr-iconfont mbr-iconfont-btn" style="color: rgb(249, 249, 249);"></span>Blog
+                        </a>
+                </li>
+                                        <li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="http://www.ladynewton.com/live" target="_blank"><span class="socicon socicon-youtube mbr-iconfont mbr-iconfont-btn" style="color: rgb(249, 249, 249);"></span>Live
+                        </a>
+                </li>                   
+            </ul>
+            
+ 
+            
+            
+        </div>
+    </nav>
 </section>
 
 <section once="footers" class="cid-rPJyv7S1OG" id="footer7-2d">
