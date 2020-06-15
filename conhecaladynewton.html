@@ -54,6 +54,30 @@ var ml_account = ml('accounts', '1862796', 'i2k6g9b0d5', 'load');
 <body>
 
 <!-- Analytics -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBL4WDOmvAu5ezMdspUoX8bh0Zq1y3EEV8",
+    authDomain: "ladynewtonapp.firebaseapp.com",
+    databaseURL: "https://ladynewtonapp.firebaseio.com",
+    projectId: "ladynewtonapp",
+    storageBucket: "ladynewtonapp.appspot.com",
+    messagingSenderId: "284500563281",
+    appId: "1:284500563281:web:ab370888291701da236f70",
+    measurementId: "G-HBDPTWYCMC"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];

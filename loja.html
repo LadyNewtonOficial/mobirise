@@ -48,6 +48,30 @@
 <body>
 
 <!-- Analytics -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBL4WDOmvAu5ezMdspUoX8bh0Zq1y3EEV8",
+    authDomain: "ladynewtonapp.firebaseapp.com",
+    databaseURL: "https://ladynewtonapp.firebaseio.com",
+    projectId: "ladynewtonapp",
+    storageBucket: "ladynewtonapp.appspot.com",
+    messagingSenderId: "284500563281",
+    appId: "1:284500563281:web:ab370888291701da236f70",
+    measurementId: "G-HBDPTWYCMC"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];
@@ -178,7 +202,7 @@
         <div class="row">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="GM/4kLuCZSrEaY36Zv3EYh7ruAFjI++hljJWpdzqX04i/NwbUxgTbuUF+kUFabGFbNNUmQFStimSXbG07b4yT+YEdd6ulB5bZtuyR1yZpYGWZKLQiPi2JwHcs0m4opdF.hGVjmeae/uF22eqqCdsf/q31oxKMH6pFTpujpY8EdvBEHH+k4DJhyLKk8YhFCuOkE6GsUAl6GgETWy+/2EWfpjRbseGPMkgtnqfmKAJ8c3aOnscaPyuvex5RPZLMhfYD">
+<form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="lb6hUIPQU7rYDRkuBS4gXtzBxGSEOvUpGDIfGyYthbBVnoP8cTBLRHutVjPtsofQzaA/WgLo6yY0e8oBBy5jLNwMOUmmQbNisxTU2CtBW8XmtrNHE3yyrnT6X3LaVyUp.L9jgRS6j/sq9Q1iroJY0ORpGweFPB8xL6UdGQyizKG7EproDuXE+HidS1+2wsfR1xQKdixGPlKQgeR9J2hipBmOlX+RI0p21Oq+5JMrmJTMjwafcdXY31UZAYUVr8qwC">
 <div class="form-row">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado, iremos responder o mais rápido possível!</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>

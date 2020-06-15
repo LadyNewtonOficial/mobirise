@@ -45,6 +45,30 @@
 <body>
 
 <!-- Analytics -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBL4WDOmvAu5ezMdspUoX8bh0Zq1y3EEV8",
+    authDomain: "ladynewtonapp.firebaseapp.com",
+    databaseURL: "https://ladynewtonapp.firebaseio.com",
+    projectId: "ladynewtonapp",
+    storageBucket: "ladynewtonapp.appspot.com",
+    messagingSenderId: "284500563281",
+    appId: "1:284500563281:web:ab370888291701da236f70",
+    measurementId: "G-HBDPTWYCMC"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];
@@ -174,7 +198,7 @@
                 <div class="form-block">
                     <div data-form-type="formoid">
                         <!---Formbuilder Form--->
-                        <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="SfAaDC96F8bOndlV43+NbV3OKTSzZt68Nzr8b8c3vlfbnf9EjwgRLkqEWb2/71pqLgC94iAllQZwwFexXxKchbrdF1qT8gKLCL8lr7O+nt89gRRYPMkqqro/7qKIiKI5.Bms9Axum8WTVS+k0JSmTN9w452j/5Vt1XrXDWf4uHczWRvkpWe0tgYnANcL8/bqMYQzjkHJ5aDkVFAoIyqBh7+Wpj3LplDCUVg5rrIW+xwBeZ41ABQ+SH4C07sxc9Bo7">
+                        <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="C5e2zUUHQxTIs7iNa+glsa44e+XO98sTFc+Wiqf3Mq09O2T8GAe98abOLwuNZtVgviFWQiTyZRcg4Q+HmWiTa4aozxaN3Qp40hej9Z7RsKzv4ONQAmsynY6iRgywEN6L.k8EI+N3V0pymV8E3uCWfWzm03YmzbSGuo80inQktdAyvZRWXpSvOdlzLFmFN8PwhCAGj8E55aoO1n3rA79+lnt8w7+Za4HmdTd5ejDFjgytvtBIpQkUYcl8HZAJQWxEM">
                             <div class="form-row">
                                 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado pelo carinho!</div>
                                 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>

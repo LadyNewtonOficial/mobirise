@@ -45,6 +45,30 @@
 <body>
 
 <!-- Analytics -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBL4WDOmvAu5ezMdspUoX8bh0Zq1y3EEV8",
+    authDomain: "ladynewtonapp.firebaseapp.com",
+    databaseURL: "https://ladynewtonapp.firebaseio.com",
+    projectId: "ladynewtonapp",
+    storageBucket: "ladynewtonapp.appspot.com",
+    messagingSenderId: "284500563281",
+    appId: "1:284500563281:web:ab370888291701da236f70",
+    measurementId: "G-HBDPTWYCMC"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
   var OneSignal = window.OneSignal || [];
@@ -240,7 +264,7 @@
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8" data-form-type="formoid">
                 <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="pqhvLafU8Fvnk5LAZbFg673q1d/vknMmarUokEdCSHbaasV3xv2HLrAo1GuoD6vBw0S7O9eoY2PjPnBa6lgDrsXMP3+pfYnKoNa9m53utS4k+SLUaZeYbMKaXHOhpa1O.OTZapqvUyOJqG/gumNK66sfPc0Qfw57zxcjrC+JqRiYmXEg1FggPCDkZFga/NGcQiRvAOMMQblv6thhSjp7mBwWw9uZKOMIU5RJs0QT2PCaI7KRWEfLWtWZnpzb8RSd9">
+                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="nAa7qVDWsA0BQjRV1ve7JDV/xDuGrXaBFvw36UlzVPD2+1halLr8S4nP98FiaoK9qRQ/G+f3ykpm4cUamQeAMlHcDRB6ONJuLVSL5JwAaODu7f8VpqGTSUp6fQlvrwRv.IO2glPUrT/JyMYdBxaxkSehAzUoJaypODBd8Ee9eF/n2FF2KnqiByBJGg+ZpNgSsXL4hFfIM+pYgkcDJQmJbPIcXZB0Yhb/A43oFpFOg0SgfWiSkwL/q20CsynSS91p5">
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado por entrar em contato conosco, vamos enviar uma resposta o quanto antes!
 
