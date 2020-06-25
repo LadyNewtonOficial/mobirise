@@ -15562,8 +15562,17 @@ section.lazy-placeholder:after {
 .cid-s20vCW9Kul .media-container-row .row-copirayt p {
   width: 100%;
 }
-.cid-s2XgEh7fQL {
-  background-image: url("../../../assets/images/background4.jpg");
+#custom-html-bj {
+  /* Type valid CSS here */
+}
+#custom-html-bj div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-bj p {
+  font-size: 60px;
+  color: #777;
 }
 .cid-rOYcTy2LbV .navbar {
   padding: .5rem 0;
