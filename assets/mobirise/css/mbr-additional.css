@@ -15565,6 +15565,11 @@ section.lazy-placeholder:after {
 #custom-html-bj {
   /* Type valid CSS here */
 }
+#custom-html-bj div {
+  padding: 350px 0;
+  color: #777;
+  text-align: center;
+}
 #custom-html-bj p {
   font-size: 60px;
   color: #777;
