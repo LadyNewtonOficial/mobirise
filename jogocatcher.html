@@ -66,7 +66,14 @@
     var apple = new Circle({radius: 15, color: "red", y: maxY - 30, x: 0});
     
     // Create Catcher Sprite
-    var catcher = new Rectangle({height: 35, width: 45, color: "green", y: minY + 30, x: 0});
+   // var catcher = new Rectangle({height: 35, width: 45, color: "green", y: minY + 30, x: 0}); original
+        
+ var catcher = new Image({
+  url: "http://ladynewton.com/assets/CaioCatcher.png",
+  width: 100, 
+  height: 100,
+  y: minY + 30, x: 0 
+})
     
     // Makes character move with the left and right arrow keys
     forever (() => {
@@ -128,11 +135,11 @@
     
     // Adds a scoreboard that displays the "score" variable
     var score = 0
-    var scoreText = new Text({y: maxY - 60, x: minX + 100, size: 30, text: () => `SCORE: ${score}`});
+    var scoreText = new Text({color:"#ff3366" , y: maxY - 60, x: minX + 100, size: 30, text: () => `SCORE: ${score}`});
     
     // Adds a level counter that displays the "level" variable
     var level = 1
-    var levelText = new Text({y: maxY - 120, x: minX + 95, size: 30, text: () => `LEVEL: ${level}`});
+    var levelText = new Text({color:"#ff3366" ,y: maxY - 120, x: minX + 95, size: 30, text: () => `LEVEL: ${level}`});
     forever(() => {
       if (score == 5) {
         level ++;        // Makes it so that when a certain score is reached, the score resets to 0 and the level increases 
