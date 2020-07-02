@@ -73,7 +73,7 @@
     var timertext = new Text({text: () => "Tempo: " + timer, y:300, size:60})
     
     // Creates text variable "scoretext" that displays the variable "timer"
-    var scoretext = new Text({text: () => "Você fugiu de Vitor por " + timer + " segundos!", y:300, size:60})
+    var scoretext = new Text({text: () => "Você fugiu de Vitor por " + timer + " segundos!", y:300, size:20})
     scoretext.showing = false  // Hides the variable "scoretext" when the game starts (is the game over message, displays the time the player survived)
     every(1, "seconds", () => {
       timer++       // Makes it so that "timer" increases by 1 every 1 second
