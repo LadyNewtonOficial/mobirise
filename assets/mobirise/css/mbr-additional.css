@@ -15574,3 +15574,15 @@ section.lazy-placeholder:after {
   font-size: 60px;
   color: #777;
 }
+#custom-html-bm {
+  /* Type valid CSS here */
+}
+#custom-html-bm div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-bm p {
+  font-size: 60px;
+  color: #777;
+}

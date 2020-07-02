@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/estampa1invertida-01-01-2-102x144.png" type="image/x-icon">
+  <meta name="description" content="Web Page Builder Description">
+  
+  <title>JogoVitorGuitarra</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/facebook-plugin/style.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+
+</head>
+<body>
+
+<!-- Analytics -->
+
+
+
+
+<!----  TUDO EM CIMA É FIREBASE -->
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "8b211386-0bb6-488c-9a5d-5758675c7145",
+    });
+  });
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159536362-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-159536362-1');
+</script>
+
+<!-- /Analytics -->
+
+
+  <div id="custom-html-bm"><!-- Type valid HTML here -->
+
+<div>
+  <script src="https://cdn.jsdelivr.net/gh/stevekrouse/WoofJS@cb6d0621/dist/woof.js"></script>
+    <script>
+    // Squid Chase
+    
+    // Sets the backdrop to a new image 
+    setBackdropURL("http://ladynewton.com/assets/BackgroundJogo.png")
+    
+    // Creats variables "squid" and "fish"
+    var squid = new Image({url:"http://ladynewton.com/assets/VitorJogo.png", height:140,width:140, x:-400})
+    var fish = new Image({url: "http://ladynewton.com/assets/PalhetaJogo.png", height:50, width:50})
+    
+    // Creates a variable "timer" that starts at 0 and is displayed through the text variable "timertext"
+    var timer = 0
+    var timertext = new Text({text: () => "Time: " + timer, y:300, size:60})
+    
+    // Creates text variable "scoretext" that displays the variable "timer"
+    var scoretext = new Text({text: () => "Você fugiu de vitor por " + timer + " segundos!", y:300, size:60})
+    scoretext.showing = false  // Hides the variable "scoretext" when the game starts (is the game over message, displays the time the player survived)
+    every(1, "seconds", () => {
+      timer++       // Makes it so that "timer" increases by 1 every 1 second
+    })
+    
+    // Makes the "squid" follows the current xy coordinates of the mouse pointer, and increases its following speed based off of the value of the variable "timer"
+    forever (() => {
+      squid.pointTowards(mouseX, mouseY);
+      squid.move(0 +(timer));
+    // Makes the variable "fish" follow the mouse pointer's xy coordinate
+      fish.x = mouseX;
+      fish.y = mouseY;
+      fish.pointTowards(mouseX, mouseY)
+    })
+    
+    // The game ends if the "squid" touches the "fish"
+    forever (() => {
+      if (squid.touching(fish)){
+          fish.showing = false,
+          squid.showing = false,         // Hides the "squid", "fish", and "timertext" on contact
+          timertext.showing = false,
+          scoretext.showing = true,         // Shows the text variable "scoretext", for the player's final score
+          freeze()
+          }
+    })
+
+    </script>
+    
+</div></div>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5"></script>
+  <script src="https://apis.google.com/js/plusone.js"></script>
+  <script src="assets/facebook-plugin/facebook-script.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+  <input name="animation" type="hidden">
+  
+</body>
+</html>
