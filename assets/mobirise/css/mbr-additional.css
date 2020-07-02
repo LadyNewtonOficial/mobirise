@@ -15578,8 +15578,8 @@ section.lazy-placeholder:after {
   /* Type valid CSS here */
 }
 #custom-html-bm div {
-  padding: 40px 0;
-  color: #777;
+  padding: 10px 0;
+  color: #fff;
   text-align: center;
 }
 #custom-html-bm p {
