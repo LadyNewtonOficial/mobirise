@@ -15578,11 +15578,11 @@ section.lazy-placeholder:after {
   /* Type valid CSS here */
 }
 #custom-html-bm div {
-  padding: 10px 0;
-  color: #fff;
+  padding: 0px 0;
+  color: #000;
   text-align: center;
 }
 #custom-html-bm p {
-  font-size: 60px;
-  color: #777;
+  font-size: 1px;
+  color: #000;
 }
