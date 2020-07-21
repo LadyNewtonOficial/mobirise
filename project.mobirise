@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "LADY NEWTON",
-    "currentPage": "espacodofa.html",
+    "currentPage": "quizz.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -20663,7 +20663,7 @@
           "_customTemplate": true,
           "_afterNavbarItem": false,
           "_customHTML": "<div class=\"container\">\n  <h1>Quizz 1</h1>\n  <p>Descubra quem você é na Lady Newton!</p>\n  <div class=\"embed-responsive embed-responsive-16by9\">\n    <iframe class=\"embed-responsive-item\" src=\"https://4screens.net/e/5ddc0eab5edc8b0100093489\"></iframe>\n  </div>\n</div>",
-          "_customCSS": "\nbackground-color: #000000;\ndiv {\n  padding: 80px 0;\n  color: #ffffff;\n  text-align: center;\n  }\np {\n  font-size: 14px;\n  color: #ffffff;\n}",
+          "_customCSS": "\nbackground-color: #000000;\ndiv {\n  padding: 100px 0;\n  color: #ffffff;\n  text-align: center;\n  height:100%;\n  }\np {\n  font-size: 14px;\n  color: #ffffff;\n}",
           "alias": "code-editor",
           "_tags": [
             "Extension"
