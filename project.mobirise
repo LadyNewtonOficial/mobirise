@@ -76,7 +76,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 429,
+    "uniqCompNum": 431,
     "versionPublish": "4.12.0",
     "imageResize": false,
     "favicon": "@PROJECT_PATH@/assets/images/20200717-135457-0000.png",
@@ -20653,17 +20653,17 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "s5oQ5b9Xuw",
+          "_anchor": "menu1-bt",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-bt"
+          "_params": {}
         },
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<div class=\"container\">\n  <h1>Quizz 1</h1>\n  <p>Descubra quem você é na Lady Newton!</p>\n  <div class=\"embed-responsive embed-responsive-16by9\">\n    <iframe class=\"embed-responsive-item\" src=\"https://4screens.net/e/5ddc0eab5edc8b0100093489\"></iframe>\n  </div>\n</div>",
-          "_customCSS": "\nbackground-color: #000000;\ndiv {\n  padding: 100px 0;\n  color: #ffffff;\n  text-align: center;\n  height:100%;\n  }\np {\n  font-size: 14px;\n  color: #ffffff;\n}",
+          "_customHTML": "<div class=\"container\">\n  <h1>Quizz 1</h1>\n  <p>Descubra quem você é na Lady Newton!</p>\n  <div class=\"embed-responsive embed-responsive-16by9\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen}\">\n    <iframe class=\"embed-responsive-item\" src=\"https://4screens.net/e/5ddc0eab5edc8b0100093489\"></iframe>\n  </div>\n</div>",
+          "_customCSS": "\nbackground-color: #000000;\ndiv {\n  padding: 60px 0;\n  color: #ffffff;\n  text-align: center;\n  height:100%;\n  \n\n  }\np {\n  font-size: 14px;\n  color: #ffffff;\n}",
           "alias": "code-editor",
           "_tags": [
             "Extension"
@@ -20761,11 +20761,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "s5oQ5dTL1N",
+          "_anchor": "footer7-bv",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer7-bv"
+          "_params": {}
         }
       ]
     }
