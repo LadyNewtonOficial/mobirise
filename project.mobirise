@@ -76,7 +76,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 431,
+    "uniqCompNum": 435,
     "versionPublish": "4.12.0",
     "imageResize": false,
     "favicon": "@PROJECT_PATH@/assets/images/20200717-135457-0000.png",
@@ -20230,7 +20230,9 @@
       "settings": {
         "meta_descr": "Faça o teste e descubra quem da Lady você seria!\nO resultado é revelador! ",
         "title": "Quizz da Lady Newton",
-        "order": 2
+        "order": 2,
+        "footer_custom": "",
+        "header_custom": ""
       },
       "components": [
         {
@@ -20662,16 +20664,16 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<div class=\"container\">\n  <h1>Quizz 1</h1>\n  <p>Descubra quem você é na Lady Newton!</p>\n  <div class=\"embed-responsive embed-responsive-16by9\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen}\">\n    <iframe class=\"embed-responsive-item\" src=\"https://4screens.net/e/5ddc0eab5edc8b0100093489\"></iframe>\n  </div>\n</div>",
-          "_customCSS": "\nbackground-color: #000000;\ndiv {\n  padding: 60px 0;\n  color: #ffffff;\n  text-align: center;\n  height:100%;\n  \n\n  }\np {\n  font-size: 14px;\n  color: #ffffff;\n}",
+          "_customHTML": "<iframe name=\"myFrame\" width=\"100%\" height=\"800px\" scrolling=\"no\" frameborder=\"0\" src=\"https://4screens.net/e/5ddc0eab5edc8b0100093489\"></iframe>",
+          "_customCSS": "/* Type valid CSS here */\nbackground-color:#000000;\n\n",
           "alias": "code-editor",
           "_tags": [
             "Extension"
           ],
           "_name": "pro.custom-html",
+          "_anchor": "custom-html-c2",
           "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_anchor": "custom-html-bu"
+          "_JSplaceholders": []
         },
         {
           "alias": false,
