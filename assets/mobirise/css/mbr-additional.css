@@ -3220,7 +3220,7 @@ section.lazy-placeholder:after {
 .cid-rOUe2L5vks {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #131313;
+  background-color: #000000;
 }
 .cid-rOUe2L5vks .mbr-section-subtitle {
   color: #767676;
@@ -3314,10 +3314,58 @@ section.lazy-placeholder:after {
 .cid-rOUe2L5vks .mbr-timeline-title {
   color: #cc2952;
 }
+.cid-s5vcavrimw {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #131313;
+}
+.cid-s5vcavrimw .mbr-section-subtitle {
+  color: #c1c1c1;
+}
+.cid-s5vcavrimw H2 {
+  color: #ff3366;
+}
+#custom-html-c7 {
+  /* Type valid CSS here */
+  background-color: #000000;
+}
+#custom-html-c7 div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-c7 p {
+  font-size: 60px;
+  color: #777;
+}
+.cid-s5vdslY5wW {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #131313;
+}
+.cid-s5vdslY5wW .mbr-section-subtitle {
+  color: #c1c1c1;
+}
+.cid-s5vdslY5wW H2 {
+  color: #ff3366;
+}
+#custom-html-ca {
+  /* Type valid CSS here */
+  background-color: #000000;
+}
+#custom-html-ca div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-ca p {
+  font-size: 60px;
+  color: #777;
+}
 .cid-rOUioWCDIj {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #131313;
+  background-color: #000000;
 }
 .cid-rOUioWCDIj .mbr-section-subtitle {
   color: #767676;
