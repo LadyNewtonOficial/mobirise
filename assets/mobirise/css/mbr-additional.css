@@ -629,6 +629,18 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
+.cid-sdiAVNn7da {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/dsc01319.jpeg");
+}
+.cid-sdiAVNn7da H1 {
+  color: #f9f9f9;
+}
+.cid-sdiAVNn7da .mbr-text,
+.cid-sdiAVNn7da .mbr-section-btn {
+  color: #efefef;
+}
 .cid-rOYcTy2LbV .navbar {
   padding: .5rem 0;
   background: #131313;
@@ -1042,19 +1054,6 @@ section.lazy-placeholder:after {
 }
 .cid-qTkA127IK8 H1 {
   color: #cc2952;
-}
-#custom-html-bp {
-  /* Type valid CSS here */
-}
-#custom-html-bp div {
-  background: #131313;
-  padding: 40px 0;
-  color: #000000;
-  text-align: center;
-}
-#custom-html-bp p {
-  font-size: 60px;
-  color: #777;
 }
 .cid-rPJyv7S1OG {
   padding-top: 15px;
