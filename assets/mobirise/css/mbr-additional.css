@@ -14995,11 +14995,6 @@ section.lazy-placeholder:after {
 .cid-sgxaJgxxEx H4 {
   color: #f9f9f9;
 }
-.cid-sgxia4xt0j {
-  padding-top: 30px;
-  padding-bottom: 0px;
-  background-color: #2e2e2e;
-}
 .cid-rOYcTy2LbV .navbar {
   padding: .5rem 0;
   background: #131313;
@@ -15406,4 +15401,91 @@ section.lazy-placeholder:after {
 .cid-rOYcTy2LbV .nav-link:hover,
 .cid-rOYcTy2LbV .dropdown-item:hover {
   color: #c1c1c1 !important;
+}
+.cid-sgxqBLxoxg {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #000000;
+}
+.cid-sgxqBLxoxg a:link {
+  text-decoration: none;
+}
+.cid-sgxqBLxoxg .icon-transition span {
+  padding: 0.1rem 0.9rem;
+  border-radius: 50%;
+  color: #ffffff;
+  display: block;
+  height: 3em;
+  line-height: 3em;
+  width: 3em;
+  background: #444444 none repeat scroll 0 0;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  font-size: 14px;
+}
+.cid-sgxqBLxoxg .icon-transition span:hover {
+  background-color: #ff3366;
+}
+.cid-sgxqBLxoxg .social-media ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+.cid-sgxqBLxoxg .social-media ul li {
+  padding: 4px;
+  display: inline-block;
+}
+.cid-sgxqBLxoxg .foot-menu {
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  margin: 0;
+  margin-bottom: 8px;
+  padding: .6em 0;
+}
+.cid-sgxqBLxoxg .foot-menu > li {
+  font-size: 14px;
+  padding: 0;
+  display: inline-block;
+}
+.cid-sgxqBLxoxg .foot-menu > li .rhombus {
+  width: 0;
+  height: 0;
+  right: 4px;
+  border: 4px solid transparent;
+  border-bottom-color: #ff3366;
+  position: relative;
+  top: -19px;
+}
+.cid-sgxqBLxoxg .foot-menu > li .rhombus::after {
+  width: 0;
+  height: 0;
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 4px;
+  border: 4px solid transparent;
+  border-top-color: #ff3366;
+}
+.cid-sgxqBLxoxg .foot-menu li a {
+  font-family: 'OpenSans', sans-serif;
+  display: inline-block;
+  letter-spacing: 2px;
+  padding: 0 10px;
+}
+.cid-sgxqBLxoxg .plan-title,
+.cid-sgxqBLxoxg .text-letter {
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  font-weight: 600;
+}
+.cid-sgxqBLxoxg .plan-title {
+  color: #444444;
+}
+@media (max-width: 767px) {
+  .cid-sgxqBLxoxg .foot-menu {
+    padding: 15px 1rem;
+  }
+}
+.cid-sgxqBLxoxg .mbr-section-title span {
+  color: #ffbc00;
 }
