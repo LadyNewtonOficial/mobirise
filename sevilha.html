@@ -40,12 +40,12 @@ fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=2565827427022311&ev=PageView&noscript=1"
-/></noscript>
+/><script> 
+var el = document.getElementById("facebook"); el.addEventListener("click", fbq('track', 'Purchase', {currency: "USD", value: 1.00}), false); 
+</script></noscript>
 <!-- End Facebook Pixel Code -->
 
-<script> 
-var el = document.getElementById("facebook"); el.addEventListener("click", fbq('track', 'Purchase', {currency: "USD", value: 1.00}), false); 
-</script>
+
 
 <!-- Hotjar Tracking Code for www.ladynewton.com -->
 <script>
