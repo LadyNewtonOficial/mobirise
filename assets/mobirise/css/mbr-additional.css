@@ -1743,7 +1743,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 1024px) {
   .cid-rOYcTy2LbV .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 5.9rem);
+    max-height: calc(98.5vh - 4.9rem);
   }
 }
 .cid-rOYcTy2LbV .collapsed button.navbar-toggler {
@@ -16497,4 +16497,33 @@ section.lazy-placeholder:after {
 .cid-soIrSleI6D .card-wrapper:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
+}
+.cid-svNusBNudm {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-svNusBNudm .mbr-section-subtitle {
+  color: #767676;
+}
+#custom-html-e2 {
+  background-color: #000000;
+}
+#custom-html-e2 div {
+  padding: 80px 0;
+  color: #000000;
+  text-align: center;
+}
+#custom-html-e2 p {
+  font-size: 14px;
+  color: #000000;
+}
+.cid-svNtVq2aBh {
+  padding-top: 64px;
+  padding-bottom: 60px;
+  background-color: #131313;
+}
+.cid-svNtVq2aBh .mbr-text,
+.cid-svNtVq2aBh blockquote {
+  color: #767676;
 }
