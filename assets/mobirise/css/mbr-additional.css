@@ -16950,9 +16950,9 @@ section.lazy-placeholder:after {
   color: #c1c1c1 !important;
 }
 .cid-szokMFN9Wf {
-  background: #cc2952;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background: #000000;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .cid-szokMFN9Wf .video-block {
   margin: auto;
@@ -16963,15 +16963,19 @@ section.lazy-placeholder:after {
   }
 }
 .cid-szol0mRnSi {
-  padding-top: 15px;
+  padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #000000;
+  background-color: #cc2952;
 }
 .cid-szol0mRnSi P {
   color: #767676;
 }
 .cid-szol0mRnSi H1 {
-  color: #cc2952;
+  color: #ffffff;
+}
+.cid-szol0mRnSi .mbr-text,
+.cid-szol0mRnSi .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-szonlhqHIr {
   padding-top: 30px;
