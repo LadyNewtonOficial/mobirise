@@ -1043,6 +1043,18 @@ section.lazy-placeholder:after {
 .cid-qTkA127IK8 H1 {
   color: #ff3366;
 }
+#custom-html-eu {
+  /* Type valid CSS here */
+}
+#custom-html-eu div {
+  padding: 0px 0;
+  color: #ffffff;
+  text-align: center;
+}
+#custom-html-eu p {
+  font-size: 60px;
+  color: #000000;
+}
 .cid-svjZWcXcYF {
   padding-top: 30px;
   padding-bottom: 0px;
